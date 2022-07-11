@@ -1,0 +1,173 @@
+
+@font-face {
+    font-family: speedee;
+    src: url(./Dalton_Maag_Speedee/OTF/);
+}
+
+@font-face {
+    font-family: speedeeb;
+    src: url("./Fonts/Speedee-Bold.ttf");
+}
+.navbar
+{display: flex;
+    justify-content: flex-start;
+    font-family:speedee;
+    font-size:15px;
+    
+    
+
+     margin:-10px;
+    height:130px;
+    width:1903px;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 8px 0px, rgba(0, 0, 0, 0.04) 0px 1px 5px 0px;
+}
+.mclogo
+{
+    margin-left: 450px;
+    
+}  
+.navbaritems{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  align-items:flex-start;
+    font-family:speedee;
+    font-size:15px;
+ 
+}
+.firstrow{
+    height:40px;
+    display:flex;
+    font-size:14px;
+    padding-top: 5px;
+    width:1000px;
+    justify-content:flex-start;
+
+    
+   
+}
+.firstrow > div{
+    margin-right: 20px;
+    
+}
+.secondrow{
+
+    display:flex;
+    padding-top:10px;
+    font-size: 18;
+   width:800px;
+   justify-content: space-between;
+    
+}
+.search
+{
+    margin-left: 240px;
+}
+#loc{
+    color: red;
+    font-size: 20px;
+}
+.ybutton
+{
+    background-color:#ffbc0d;
+    border: none;
+    font-size: 18;
+    padding:10 20;
+    margin-bottom:35 ;
+    border-radius: 7px;
+    
+    
+}
+.mcbody
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1
+{
+    display:flex;
+   justify-content: center;
+   align-items: center;
+   padding-top:100px;
+}
+
+.firstsectextb{
+    font-family: speedeeb;
+    font-size: 36px;
+padding-left: 50;
+}
+.normalsectext{
+    font-family: speedee;
+    padding-left:0;
+    font-size:16;
+    /* padding-top:20; */
+}
+.smalltext{
+    font-size: 10px;
+    font-family: speedee;
+}
+.downloadbtn{
+    padding: 13px 25px;
+    font-family: speedee;
+    background-color: #ffbc0d;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer{
+    padding-top:100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: speedee;
+    padding-left:80px;
+}
+ul
+{ display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 130px;
+    list-style-type: none;
+    line-height: 28px;
+    font-size: 16px;
+}
+.footbar
+{ padding-top: 50px;
+    
+    padding-left:0;
+}
+#spotifyimg
+{
+    padding-right: 670px;
+}
+hr{
+    width:90%;
+}
+#bottom
+{
+    display: flex;
+    font-family: speedee;
+    list-style: none ;
+  
+   
+}
+#bottom>li{
+    padding-right: 50px;
+}
+.last{
+    display: flex;
+   
+    font-family: speedee;
+    list-style: none ;
+}
+.last>li{
+    padding-right:100px;
+    position: relative;
+    right:300px;
+}
